@@ -1,0 +1,47 @@
+table
+{
+	margin:0;
+	border: 2px solid #001b5a;
+	background-color: #89d3c7;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+}
+
+td
+{
+	padding: 15px 40px;
+}
+
+input[type=text], input[type=password]
+{
+	width:100%;
+	font-size:16px;
+	border: none;
+	box-sizing: border-box;
+	border-bottom: 2px solid black;
+	background: transparent;
+}
+
+label
+{
+	font-size:16px;
+	font-weight: bold;
+}
+
+input[type=submit]
+{
+	font-size:16px;
+	color:black;
+	font-weight: bold;
+	border-radius: 20px;
+	height: 40px;
+	width: 200px;
+	border: solid;
+}
+
+a
+{
+	font-size: 12px;
+}
